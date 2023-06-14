@@ -255,7 +255,7 @@ footer .contact h1 {
   /* line-height: 110px; */
   text-align: center;
   border-radius: 50%;
-  background: #c8d9a3;
+  background: #6fa1bf33;
   margin: 2rem;
   display: flex;
   align-items: center;
@@ -271,7 +271,7 @@ footer .socials a {
 footer .socials a i {
   font-size: 60px;
   /* line-height: 10px; */
-  color: #3d7373;
+  color: #2f2f2f;
   text-align: center;
 }
 
@@ -300,7 +300,7 @@ nav .nav-items ul a {
   display: inline;
   margin: 25px;
   cursor: pointer;
-  color: #3d7373;
+  color: #000;
 }
 
 .nav-items ul li:hover {
@@ -322,7 +322,7 @@ section {
 
 .header .logo {
   font-size: 1.4rem;
-  color: #3d7373;
+  color: #000;
   font-weight: bold;
   cursor: pointer;
 }
@@ -352,7 +352,7 @@ section {
 /* Section 2 of Home page */
 
 .page {
-  background-color: #a6bf6f;
+  background-color: #6fa1bf33;
   padding: 60px 70px;
   width: 100%;
 }
@@ -361,7 +361,7 @@ section {
   font-size: 4rem;
   font-weight: bolder;
   width: 70%;
-  color: #3d7373;
+  color: #000;
 }
 
 .section2 .page_image img {
@@ -413,7 +413,7 @@ section {
 
 .Why {
   font-family: "Monserrat";
-  color: #3d7373;
+  color: rgb(121, 60, 121);
   font-weight: 700;
   font-size: 3rem;
   font-weight: 700;
@@ -424,8 +424,8 @@ section {
   font-family: "Monserrat";
   text-align: center;
   justify-content: center;
-  background-color: #c8d9a3;
-  color: #3d7373;
+  background-color: #69c4cd26;
+  color: #323232;
 }
 
 .carousel-item {
@@ -494,6 +494,18 @@ footer .contact h1 {
   font-weight: 700;
 }
 
+.carousel-control-prev-icon {
+  filter: brightness(0);
+}
+.carousel-control-prev {
+  filter: brightness(0);
+}
+.carousel-control-next-icon {
+  filter: brightness(0);
+}
+.carousel-control-next {
+  filter: brightness(0);
+}
 /* Responsive Designs  */
 @media screen and (max-width: 1500px) {
   nav #menu-bar {
@@ -556,7 +568,7 @@ footer .contact h1 {
     font-size: 2rem;
     font-weight: bolder;
     width: 70%;
-    color: #3d7373;
+    color: #000;
   }
 
   .section2 .page_image img {
@@ -607,7 +619,7 @@ footer .contact h1 {
   footer .socials a i {
     font-size: 20px;
     line-height: 10px;
-    color: #3d7373;
+    color: #000;
     text-align: center;
   }
 
@@ -664,7 +676,7 @@ footer .contact h1 {
     font-size: 1.5rem;
     font-weight: bolder;
     width: 70%;
-    color: #3d7373;
+    color: #000;
   }
 
   .section2 .page_image img {
@@ -901,7 +913,7 @@ footer .contact h1 {
   /* Navigation design for 600px width device */
   nav #menu-bar {
     display: inline;
-    color: #3d7373;
+    color: #000;
     font-size: 18px;
     margin-bottom: 2rem;
   }
